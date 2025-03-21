@@ -128,3 +128,36 @@ height: 70vh;
     overflow: hidden; 
     text-overflow: ellipsis; 
 }
+
+
+
+.secondPage{
+    height: 100vh;
+    width: 100vw;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.secondPage h1{
+    font-size: 50px;
+    margin: 60px;
+
+
+}
+.SecondPage-detailsBox{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.winnerDetails{
+    height: 50vh;
+    width: 20vw;
+    background-color: white;
+}
+.winnerDetails img{
+    height: 70%;
+    width: 100%;
+    background-color: red;
+    border-radius: 20px;
+}
