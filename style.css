@@ -48,3 +48,23 @@ nav{
     border: none;
     border-radius: 15px;
 }
+.landingpage{
+    width: 100%;
+    min-height: 70vh;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.landing-text{
+width: 50%;
+background-color: aquamarine;
+height: 70vh;
+}
+.landing-img{
+    width: 50%;
+background-color: rgb(6, 70, 48);
+height: 100%;
+height: 70vh;
+
+}
