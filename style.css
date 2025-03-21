@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ font-family: sans-serif;
+    color: white
+}
+body{
+    background-color: black;
+}
+.main{
+   
+}
+.logo{
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(245, 121, 72);
+}
+.logo span{
+    color: rgb(219, 146, 11);
+}
+nav{
+    padding: 2vw 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(82, 82, 82);
+    
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3vw;
+   
+
+}
+.nav-links h3{
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(224, 224, 224);
+}
+.nav-btn{
+    padding: 1vw 3vw;
+    background-color:rgb(219, 146, 11) ;
+    border: none;
+    border-radius: 15px;
+}
