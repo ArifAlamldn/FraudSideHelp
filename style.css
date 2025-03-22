@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -5,9 +6,15 @@
   font-family: sans-serif;
   color: white;
 }
-body {
-  background-color: black;
+body{
+    background-color: black;
+    height: 100%;
+    width: 100%;
 }
+.main{
+    height: 100vh;
+    width: 100vw;
+} 
 .main {
 }
 .logo {
@@ -46,13 +53,137 @@ nav {
   font-size: 1em;
 
 }
-.landingpage {
-  width: 100%;
-  min-height: 70vh;
-  background-color: rgb(116, 116, 116);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.nav-btn:hover{
+ background-color: white;
+ color:rgb(219, 146, 11) ;
+}
+.landingpage{
+    background-image: url(https://plus.unsplash.com/premium_photo-1682986671851-eba6a14e77af?q=80&w=2058&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+     opacity: 0.5;
+    width: 100vw;
+    min-height: 70vh;
+   
+}
+
+.lin{
+    min-height: 100px;
+    /* background-color: red; */
+    padding-top: 10px;
+    
+}
+.linkbox1{
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: red; */
+   
+}
+.linkbox1 a{
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+    margin-top: 7px;
+    width:150px;
+    font-weight: 600;
+    
+    
+    /* background-color: red; */
+}
+.linkbox1 a:hover{
+    color: black;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(239, 231, 231); */
+    height: 35vh;
+    gap: 10px;
+}
+.heading h1{
+    font-size: 60px;
+}
+.heading h3{
+    font-size: 30px;
+}
+.heading h1,h3{
+    color: black;
+}
+.animation1{
+    font-size: 40px;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+
+
+
+.secondPage{
+    height: 100vh;
+    width: 100vw;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.secondPage h1{
+    font-size: 50px;
+    margin: 60px;
+
+
+}
+.SecondPage-detailsBox{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.winnerDetails{
+    height: 50vh;
+    width: 20vw;
+    background-color: white;
+}
+.winnerDetails img{
+    height: 70%;
+    width: 100%;
+    background-color: red;
+    border-radius: 20px;
+}
+.thirdPage{
+    height: 100vh;
+    width: 100vw;
+    background-color: red;
+}
+.thirdPage-First{
+    /* background-color: blue; */
+    height: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+}
+.thirdPage-First h1{
+    font-size: 40px;
+}
+.thirdPage-First h3{
+    font-size: 20px;
+}
+
+.games{
+    height: 50%;
+    width: 30%;
+    background-color: yellow;
+}
+.Gam-image{
+    width: 100%;
+    height: 50%;
+    background-color: black;
+}
+.Gam-image span{
+    padding: 4px solid white;
+    background-color: rgb(233, 233, 225);
+    border-radius: 2px solid;
+    font-size: 20px;
 }
 .landing-text {
   padding: 30px 40px;
@@ -88,4 +219,22 @@ nav {
   height: 100%;
   object-fit: cover;
   border-radius: 10px;
+}
+
+.Forthpage{
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(70, 53, 53);
+}
+.Forpage-text{
+  width: 100%;
+  min-height: 30vh;
+  background-color: lawngreen;
+  text-align: center;
+}
+.ludo-card{
+  width: 30vw;
+  min-height: 40vh;
+  background-color: rgb(24, 34, 15);
+  text-align: center;
 }
