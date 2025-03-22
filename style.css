@@ -225,16 +225,95 @@ nav {
   width: 100%;
   min-height: 100vh;
   background-color: rgb(70, 53, 53);
+
 }
 .Forpage-text{
+  padding: 5vw 10vw;
   width: 100%;
   min-height: 30vh;
-  background-color: lawngreen;
+  background-color: rgb(245, 158, 158);
   text-align: center;
+  font-weight: 700;
+}
+.Forpage-text span{
+  font-size: 2rem;
+}
+.Forpage-text p{
+margin: 10px;
+}
+.Forpage-Cards{
+  padding: 3vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 .ludo-card{
+border-radius: 10px;
   width: 30vw;
-  min-height: 40vh;
-  background-color: rgb(24, 34, 15);
+  min-height: 60vh;
+
   text-align: center;
+}
+.popular{
+ display: flex;
+justify-content: space-between;
+ flex-direction: row-reverse;
+  border-radius: 10px;
+width: 100%;
+  height: 23vh;
+  background-color: palevioletred;
+  border-bottom-right-radius: 0px;
+border-bottom-left-radius: 0px;
+}
+.popular img{
+position: relative;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+ display: flex;
+ top: 50% ;
+ left: 50%;
+ transform: translate(-50%,-50%);
+}
+.popular span{
+  padding: 15px;
+  font-size: 14px;
+}
+.playing{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: brown;
+  height: 5vh;
+  padding: 10px;
+}
+.Game-det{
+  padding: 20px;
+  background-color: rgb(51, 51, 51);
+  text-align: left;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
+}
+.Game-det p{
+  margin-top: 5px;
+
+}
+
+.rating{
+  margin: 10px 2px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+.playWin{
+  padding: 1vw 3vw;
+  background-color: rgb(219, 146, 11);
+  border: none;
+  border-radius: 15px;
+  font-size: 1em;
+  width: 100%;
+  margin-top: 5px;
 }
