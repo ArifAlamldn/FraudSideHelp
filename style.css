@@ -1,70 +1,91 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
- font-family: sans-serif;
-    color: white
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: white;
 }
-body{
-    background-color: black;
+body {
+  background-color: black;
 }
-.main{
-   
+.main {
 }
-.logo{
-    font-size: 2rem;
-    font-weight: 700;
-    color: rgb(245, 121, 72);
+.logo {
+  font-size: 2rem;
+  font-weight: 700;
+  color: rgb(245, 121, 72);
 }
-.logo span{
-    color: rgb(219, 146, 11);
+.logo span {
+  color: rgb(219, 146, 11);
 }
-nav{
-    padding: 2vw 4vw;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 10vh;
-    width: 100%;
-    background-color: rgb(82, 82, 82);
-    
+nav {
+  padding: 2vw 4vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+  width: 100%;
+  background-color: rgb(82, 82, 82);
 }
-.nav-links{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 3vw;
-   
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3vw;
+}
+.nav-links h3 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgb(224, 224, 224);
+}
+.nav-btn {
+  padding: 1vw 3vw;
+  background-color: rgb(219, 146, 11);
+  border: none;
+  border-radius: 15px;
+  font-size: 1em;
 
 }
-.nav-links h3{
-    font-size: 1rem;
-    font-weight: 500;
-    color: rgb(224, 224, 224);
+.landingpage {
+  width: 100%;
+  min-height: 70vh;
+  background-color: rgb(116, 116, 116);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.nav-btn{
+.landing-text {
+  padding: 30px 40px;
+  width: 40%;
+
+  height: 70vh;
+}
+.tagline {
+  font-size: 3.5rem;
+  color: rgb(20, 65, 40);
+}
+.scam {
+  color: red;
+}
+.landing-text button{
     padding: 1vw 3vw;
-    background-color:rgb(219, 146, 11) ;
+    background-color: rgb(219, 146, 11);
     border: none;
     border-radius: 15px;
+    margin-top: 10px;
+    font-size: 1em;
 }
-.landingpage{
-    width: 100%;
-    min-height: 70vh;
-    background-color: gray;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.landing-text{
-width: 50%;
-background-color: aquamarine;
-height: 70vh;
-}
-.landing-img{
-    width: 50%;
-background-color: rgb(6, 70, 48);
-height: 100%;
-height: 70vh;
+.landing-img {
+  padding: 30px 20px;
 
+  width: 60%;
+
+  height: 100%;
+  height: 70vh;
+}
+.landing-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
 }
