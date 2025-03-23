@@ -141,6 +141,10 @@ nav {
     height: 50vh;
     width: 20vw;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 .winnerDetails img{
     height: 70%;
