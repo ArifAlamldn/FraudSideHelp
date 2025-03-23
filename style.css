@@ -16,11 +16,18 @@ body{
     width: 100vw;
 } 
 .main {
+    padding: 0;
 }
 .logo {
+    height: 100%;
   font-size: 2rem;
   font-weight: 700;
   color: rgb(245, 121, 72);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  
 }
 .logo span {
   color: rgb(219, 146, 11);
@@ -158,7 +165,7 @@ nav {
     background-color: red;
 }
 .thirdPage-First{
-    /* background-color: blue; */
+    background-color: blue;
     height: 30%;
     text-align: center;
     display: flex;
@@ -168,15 +175,38 @@ nav {
 }
 .thirdPage-First h1{
     font-size: 40px;
+  
 }
 .thirdPage-First h3{
     font-size: 20px;
 }
 
-.games{
-    height: 50%;
-    width: 30%;
+.acheive{
+    height: 70%;
+    width: 25%;
     background-color: yellow;
+    border-radius: 30% 30% 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.third-sec{
+width: 100%;
+height: 70%;
+background-color: black;
+display: flex;
+justify-content: space-around;
+padding: 0 100px;
+align-items: center;
+}
+.acheive img{
+     height: 100px;
+     width: 100px;
+     border-radius: 50%;
+    
+
 }
 .Gam-image{
     width: 100%;
