@@ -12,11 +12,9 @@ body{
     width: 100%;
 }
 .main{
-    height: 100vh;
-    width: 100vw;
+    overflow: hidden;
 } 
-.main {
-}
+
 .logo {
   font-size: 2rem;
   font-weight: 700;
@@ -40,13 +38,23 @@ nav {
   justify-content: space-between;
   gap: 3vw;
 }
-.nav-links h3 {
-  font-size: 1rem;
+.nav-links a {
+  font-size: .95rem;
   font-weight: 500;
   color: rgb(224, 224, 224);
+ text-decoration: none; 
+  color: #337ab7;
+transition: color 0.2s ease;
+&:hover {
+    color: #23527c;
+  }
+&:active {
+    color: #23527c; /* Active link color */
+  }
+
 }
 .nav-btn {
-  padding: 1vw 3vw;
+  padding: 1vw 2vw;
   background-color: rgb(219, 146, 11);
   border: none;
   border-radius: 15px;
@@ -65,29 +73,6 @@ nav {
    
 }
 
-.lin{
-    min-height: 100px;
-    /* background-color: red; */
-    padding-top: 10px;
-    
-}
-.linkbox1{
-    display: flex;
-    justify-content: space-evenly;
-    /* background-color: red; */
-   
-}
-.linkbox1 a{
-    text-decoration: none;
-    font-size: 20px;
-    color:white;
-    margin-top: 7px;
-    width:150px;
-    font-weight: 600;
-    
-    
-    /* background-color: red; */
-}
 .linkbox1 a:hover{
     color: black;
 }
@@ -116,10 +101,24 @@ nav {
     text-overflow: ellipsis; 
 }
 
+.animation1 h2 {
+  display: inline-block;
+  white-space: nowrap;
+  animation: move 50s linear infinite;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
 
 
 .secondPage{
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
    
     display: flex;
@@ -135,39 +134,65 @@ nav {
 .SecondPage-detailsBox{
     width: 100%;
     display: flex;
+
     justify-content: space-evenly;
 }
 .winnerDetails{
-    height: 50vh;
+    height: 38vh;
     width: 20vw;
     background-color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+}
+.Wh3{
+  display: flex;
+    align-items: center;
+flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+.Wh3 span{
+  color: red;
+  margin-left: 5vw;
 }
 .winnerDetails img{
-    height: 70%;
+    height: 50%;
     width: 100%;
     background-color: red;
-    border-radius: 20px;
+
+ border-top-right-radius: 20px;
+ border-top-left-radius: 20px;
+    object-fit: cover;
 }
-.thirdPage{
+
+.thirdPage-First{
+  /* background-color: blue; */
+  height: 30%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: space-around;
+  margin-bottom: 10vw;
+}
+.thirdPage-First h1{
+  font-size: 40px;
+}
+.thirdPage-First h3{
+  font-size: 20px;
+  color: wheat;
+}
+
+
+
+/* .thirdPage{
     height: 100vh;
     width: 100vw;
     background-color: red;
-}
-.thirdPage-First{
-    /* background-color: blue; */
-    height: 30%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    justify-content: space-around;
-}
-.thirdPage-First h1{
-    font-size: 40px;
-}
-.thirdPage-First h3{
-    font-size: 20px;
-}
+} */
 
 .games{
     height: 50%;
