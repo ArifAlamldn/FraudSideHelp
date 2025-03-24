@@ -33,6 +33,8 @@ body{
   color: rgb(219, 146, 11);
 }
 nav {
+    z-index: 2;
+    position: fixed;
   padding: 2vw 4vw;
   display: flex;
   align-items: center;
