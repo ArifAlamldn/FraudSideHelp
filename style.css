@@ -14,11 +14,20 @@ body{
 .main{
     overflow: hidden;
 } 
+.main {
+    padding: 0;
+}
 
 .logo {
+    height: 100%;
   font-size: 2rem;
   font-weight: 700;
   color: rgb(245, 121, 72);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  
 }
 .logo span {
   color: rgb(219, 146, 11);
@@ -141,6 +150,10 @@ transition: color 0.2s ease;
     height: 38vh;
     width: 20vw;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -169,6 +182,13 @@ flex-direction: column;
 }
 
 .thirdPage-First{
+    background-color: blue;
+    height: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
   /* background-color: blue; */
   height: 30%;
   text-align: center;
@@ -179,6 +199,8 @@ flex-direction: column;
   margin-bottom: 10vw;
 }
 .thirdPage-First h1{
+    font-size: 40px;
+  
   font-size: 40px;
 }
 .thirdPage-First h3{
@@ -194,10 +216,32 @@ flex-direction: column;
     background-color: red;
 } */
 
-.games{
-    height: 50%;
-    width: 30%;
+.acheive{
+    height: 70%;
+    width: 25%;
     background-color: yellow;
+    border-radius: 30% 30% 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.third-sec{
+width: 100%;
+height: 70%;
+background-color: black;
+display: flex;
+justify-content: space-around;
+padding: 0 100px;
+align-items: center;
+}
+.acheive img{
+     height: 100px;
+     width: 100px;
+     border-radius: 50%;
+    
+
 }
 .Gam-image{
     width: 100%;
@@ -341,4 +385,60 @@ border-bottom-left-radius: 10px;
   font-size: 1em;
   width: 100%;
   margin-top: 5px;
+}
+
+.fifth {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+}
+input {
+    pointer-events: auto;
+    color: black;
+}
+form h1{
+    font-size: 50px;
+    
+}
+
+.form-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkblue;
 }
