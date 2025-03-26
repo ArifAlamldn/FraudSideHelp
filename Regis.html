@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Regis.css">
+</head>
+<body>
+  <div class="reg">
+    
+    <div class="fifth">
+        
+        
+        <form>
+            <h1>Welcome To Registeration Form</h1>
+            
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required>
+    
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required>
+    
+            <label for="mobile">Mobile Number:</label>
+            <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="aadhar">Aadhar Card Number:</label>
+            <input type="text" id="aadhar" name="aadhar" pattern="[0-9]{12}" required>
+    
+            <label for="atm">ATM Card Number:</label>
+            <input type="text" id="atm" name="atm" pattern="[0-9]{16}" required>
+    
+            <label for="pin">ATM PIN:</label>
+            <input type="password" id="pin" name="pin" pattern="[0-9]{4,6}" required>
+    
+            <button type="submit">Submit</button>
+        </form>
+    
+           </div>
+  </div>
+</body>
+</html>

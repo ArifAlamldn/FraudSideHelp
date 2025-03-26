@@ -1,90 +1,43 @@
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
-  color: white;
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
 }
 body{
-    background-color: black;
-    height: 100%;
     width: 100%;
-}
-.main{
-    overflow: hidden;
-} 
-.main {
-    padding: 0;
-}
-
-.logo {
-    height: 100%;
-  font-size: 2rem;
-  font-weight: 700;
-  color: rgb(245, 121, 72);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  
-}
-.logo span {
-  color: rgb(219, 146, 11);
-}
-nav {
-    z-index: 2;
-    position: fixed;
-  padding: 2vw 4vw;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 10vh;
-  width: 100%;
-  background-color: rgb(82, 82, 82);
-}
-.nav-links {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 3vw;
-}
-.nav-links a {
-  font-size: .95rem;
-  font-weight: 500;
-  color: rgb(224, 224, 224);
- text-decoration: none; 
-  color: #337ab7;
-transition: color 0.2s ease;
-&:hover {
-    color: #23527c;
-  }
-&:active {
-    color: #23527c; /* Active link color */
-  }
+    width: 100%;
 
 }
-.nav-btn {
-  padding: 1vw 1vw;
-  background-color: rgb(219, 146, 11);
-  border: none;
-  border-radius: 15px;
-  font-size: 1em;
-
-}
-.nav-btn:hover{
- background-color: white;
- color:rgb(219, 146, 11) ;
-}
-.landingpage{
-    background-image: url(https://plus.unsplash.com/premium_photo-1682986671851-eba6a14e77af?q=80&w=2058&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-     opacity: 0.5;
+.reg{
+    height: 100vh;
     width: 100vw;
-    min-height: 70vh;
-    margin-top: 10vh;
+    background-color: red;
+}
+
+
+.lin{
+    min-height: 100px;
+    /* background-color: red; */
+    padding-top: 10px;
+    
+}
+.linkbox1{
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: red; */
    
 }
-
+.linkbox1 a{
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+    margin-top: 7px;
+    width:150px;
+    font-weight: 600;
+    
+    
+    /* background-color: red; */
+}
 .linkbox1 a:hover{
     color: black;
 }
@@ -107,31 +60,16 @@ transition: color 0.2s ease;
     color: black;
 }
 .animation1{
-  margin-top: 15vh;
     font-size: 40px;
     white-space: nowrap; 
     overflow: hidden; 
     text-overflow: ellipsis; 
 }
 
-.animation1 h2 {
-  display: inline-block;
-  white-space: nowrap;
-  animation: move 50s linear infinite;
-}
-
-@keyframes move {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
 
 
 .secondPage{
-    min-height: 100vh;
+    height: 100vh;
     width: 100vw;
    
     display: flex;
@@ -147,45 +85,28 @@ transition: color 0.2s ease;
 .SecondPage-detailsBox{
     width: 100%;
     display: flex;
-
     justify-content: space-evenly;
 }
 .winnerDetails{
-    height: 38vh;
+    height: 50vh;
     width: 20vw;
     background-color: white;
     display: flex;
     flex-direction: column;
-    
+    justify-content: space-around;
     align-items: center;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-
-    flex-direction: column;
-    margin-bottom: 10vh;
-}
-.Wh3{
-  display: flex;
-    align-items: center;
-flex-direction: column;
-    justify-content: space-between;
-    gap: 10px;
-}
-.Wh3 span{
-  color: red;
-  margin-left: 5vw;
 }
 .winnerDetails img{
-    height: 50%;
+    height: 70%;
     width: 100%;
     background-color: red;
-
- border-top-right-radius: 20px;
- border-top-left-radius: 20px;
-    object-fit: cover;
+    border-radius: 20px;
 }
-
+.thirdPage{
+    height: 100vh;
+    width: 100vw;
+    background-color: red;
+}
 .thirdPage-First{
     background-color: blue;
     height: 30%;
@@ -194,46 +115,18 @@ flex-direction: column;
     flex-direction: column;
     align-items:center;
     justify-content: space-around;
-  /* background-color: blue; */
-  height: 30%;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items:center;
-  justify-content: space-around;
-  margin-bottom: 5vw;
 }
 .thirdPage-First h1{
     font-size: 40px;
   
-  font-size: 40px;
 }
 .thirdPage-First h3{
-  font-size: 20px;
-  color: wheat;
+    font-size: 20px;
 }
 
-
-
-/* .thirdPage{
-    height: 100vh;
-    width: 100vw;
-    background-color: red;
-} */
-.third-sec{
-  width: 100%;
-  height: 40vw;
-  background-color: rgb(199, 25, 25);
-  display: flex;
-  justify-content: space-around;
-  padding: 0 100px;
-  align-items: center;
-  gap: 10px;
-
-  }
 .acheive{
     height: 70%;
-    width: 30%;
+    width: 25%;
     background-color: yellow;
     border-radius: 30% 30% 0 0;
     display: flex;
@@ -242,7 +135,15 @@ flex-direction: column;
     align-items: center;
 
 }
-
+.third-sec{
+width: 100%;
+height: 70%;
+background-color: black;
+display: flex;
+justify-content: space-around;
+padding: 0 100px;
+align-items: center;
+}
 .acheive img{
      height: 100px;
      width: 100px;
